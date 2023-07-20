@@ -94,3 +94,20 @@ dotsNav.addEventListener('click', e => {
     updateDots(currentDot, targetDot);
     hideShowArrows(slides, prevButton, nextButton, targetIndex);
 });
+
+// Playing music
+
+const play = document.querySelector(".fa-spotify");
+const spotify = document.querySelector(".spotify-color-background");
+
+play.addEventListener("click", () => {
+    const audio = document.querySelector("audio");
+    if (!audio.paused) {
+        spotify.style.backgroundColor = "#1ED760";
+        audio.pause();
+    } else {
+        audio.play();
+        play.classList.add("active");
+        spotify.style.backgroundColor = "#000";
+    }
+});
