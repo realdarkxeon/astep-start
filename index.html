@@ -15,7 +15,7 @@
     <section id="navbar">
       <nav class="navbar navbar-expand-lg navbar-light navbar-addition">
         <div class="container-fluid">
-          <a class="navbar-brand h1 nav-brand-style" href="#">darkxeon</a>
+          <a class="navbar-brand h1 nav-brand-style" href="https://github.com/realdarkxeon/astep-start">darkxeon</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -39,8 +39,9 @@
       </nav>
     </section>
     <div class="spotify-color-background">
+        <audio src="src/STAY.mp3"></audio>
         <p class="listening-to-music">Listening to Stay by Justin Bieber & The Kid LAROI <i class="fa-brands fa-spotify fa-lg" style="margin-left:0.125rem;"></i></p>
-    </div>
+    </div>  
     <section>
       <div class="row">
         <div class="col-lg-9 intro-content">
@@ -133,6 +134,66 @@
             </p>
             <a href=""><button class="about-hobby">View More</button></a>
           </div>
+        </div>
+      </div>
+    </section>
+    <section id="liked-podcasts">
+      <h1>Liked podcasts</h1>
+      <div class="carousel">
+        <button class="carousel__button carousel__button--left">
+          <img src="src/left.svg" alt="left arrow">
+        </button>
+        <div class="carousel__track-container">
+          <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+                <div class="podcast">
+                  <div class="podcast-description">
+                    <h3>Narikbi Live</h3>
+                    <p class="inter-medium-gray">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                  <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL25hcmlrYmkvZmVlZC54bWw">
+                    <img class="carousel__image" src="src/narikbilive_preview.png" alt="Narikbi Live">
+                  </a>
+                </div>
+            </li>
+            <li class="carousel__slide">
+                <div class="podcast">
+                  <div class="podcast-description">
+                    <h3>nFactorial</h3>
+                    <p class="inter-medium-gray">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                  <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL25mYWN0b3JpYWxwb2RjYXN0L2ZlZWQueG1s">
+                    <img class="carousel__image" src="src/nfactorial_preview.jpeg" alt="nFactorial">
+                  </a>
+                </div>
+            </li>
+            <li class="carousel__slide">
+                <div class="podcast">
+                  <div class="podcast-description">
+                    <h3>Zamandas</h3>
+                    <p class="inter-medium-gray">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                  <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zMTAxNDRhYy9wb2RjYXN0L3Jzcw">
+                    <img class="carousel__image" src="src/zamandas_preview.jpeg" alt="Zamandas">
+                  </a>
+                </div>
+            </li>
+          </ul>
+        </div>
+        <button class="carousel__button carousel__button--right">
+          <img src="src/right.svg" alt="right arrow">
+        </button>
+
+        <div class="carousel__nav">
+          <button class="carousel__indicator current-slide"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
         </div>
       </div>
     </section>
